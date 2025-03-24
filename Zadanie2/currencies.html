@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kurs Walut</title>
+</head>
+<body>
+
+    <h2>Wybierz waluty do przeliczenia</h2>
+    <form action="/exchange" method="get">
+        <label for="base">Waluta źródłowa (A):</label>
+        <select id="base" name="base">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="PLN">PLN</option>
+            <option value="GBP">GBP</option>
+            <option value="CHF">CHF</option>
+        </select>
+        <br><br>
+
+        <label for="target">Waluta docelowa (B):</label>
+        <select id="target" name="target">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="PLN">PLN</option>
+            <option value="GBP">GBP</option>
+            <option value="CHF">CHF</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Przelicz</button>
+    </form>
+
+        <h2>Bezużyteczny fakt dnia:</h2>
+    <p><strong>{{ fact }}</strong></p>
+
+    <br>
+    <a href="/">Wróć do strony głównej</a>
+
+</body>
+</html>
