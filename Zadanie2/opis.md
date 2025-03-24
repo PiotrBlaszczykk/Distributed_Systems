@@ -83,7 +83,7 @@ za pomocą kolejnego API.
 ---
 
 ## Deployment
-- Uruchamiane lokalnie przez `uvicorn` (`uvicorn main:app --reload`)
+- Uruchamiane lokalnie przez `uvicorn` (`uvicorn server:app --reload`)
 - Możliwość przeniesienia do środowiska produkcyjnego lub chmurowego (opcjonalnie)
 
 ---
